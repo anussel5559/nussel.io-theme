@@ -1,34 +1,17 @@
-# This is a basic workflow to help you get started with Actions
-
 name: Build & Deploy
-
-# Controls when the action will run. Triggers the workflow on push or pull request
-# events but only for the master branch
 on:
   push:
     branches: [ master ]
-  pull_request:
-    branches: [ master ]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
   deploy:
-    # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-    # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
     - name: Deploy Ghost Theme
-      # You may pin to the exact commit or the version.
-      # uses: TryGhost/action-deploy-theme@67e6b11340996cde006f5ba4aeaec8ceb7b99c6a
       uses: TryGhost/action-deploy-theme@v1.3.1
       with:
-        # Ghost Admin API Url
         api-url: https://nussel.io
-        # Ghost Admin API Key
         api-key: 5f3f374a4180d9476963e014:a0bc7214c4cc3bd8a0de6281f48be80b887a4d4af0226f644d6aa8c0f3a909fc
     
