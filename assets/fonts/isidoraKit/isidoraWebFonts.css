@@ -1,0 +1,35 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3938392, 2020-08-20T22:11:21-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Isidora-Light by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/isidora/light/
+ * 
+ * Webfont: IsidoraAlt-Bold by Latinotype
+ * URL: https://www.myfonts.com/fonts/latinotype/isidora/alt-bold/
+ * 
+ * 
+ * Webfonts copyright: Copyright &amp;#x00A9; 2016 by Enrique Hernandez Vasquez. All rights reserved.
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c1858");
+  
+@font-face {
+  font-family: 'Isidora-Light';
+  src: url('webFonts/Isidora-Light/font.woff2') format('woff2'), url('webFonts/Isidora-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'IsidoraAlt-Bold';
+  src: url('webFonts/IsidoraAlt-Bold/font.woff2') format('woff2'), url('webFonts/IsidoraAlt-Bold/font.woff') format('woff');
+}
+
