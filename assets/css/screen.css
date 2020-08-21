@@ -679,6 +679,7 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     margin: 0 0 0.4em;
     line-height: 1.15em;
     transition: color 0.2s ease-in-out;
+    font-family: IsidoraAlt-Bold;
 }
 
 .no-image .post-card-title {
@@ -2929,6 +2930,7 @@ Usage (In Ghost editor):
 
     .post-full-title {
         color: rgba(255, 255, 255, 0.9);
+        font-family: IsidoraAlt-Bold
     }
 
     .post-full-custom-excerpt {
