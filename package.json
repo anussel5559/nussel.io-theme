@@ -2,7 +2,7 @@
     "name": "nussel.io-theme",
     "description": "The main theme for nussel.io",
     "demo": "https://nussel.io",
-    "version": "0.0.7",
+    "version": "0.0.8",
     "engines": {
         "ghost": ">=3.0.0",
         "ghost-api": "v3"
