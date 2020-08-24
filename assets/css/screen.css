@@ -627,6 +627,9 @@ The knock-on effect of this is ugly browser-scroll bars at the bottom, so 80px o
     min-height: 220px;
     border-bottom: 1px solid color-mod(var(--lightgrey) l(+12%));
     background-size: cover;
+    border-radius: 10px;
+    background: #805E73;
+    box-shadow: 3, 3, #2D4654;
 }
 
 .post-card-image-link {
